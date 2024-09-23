@@ -1,0 +1,82 @@
+.tech-era-container {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  background-color: #ffffff;
+}
+
+.responsive-container {
+  width: 90%;
+}
+
+.courses-main-heading {
+  font-family: 'Roboto';
+  font-size: 34px;
+  font-weight: 600;
+  color: #1e293b;
+}
+
+.loader-container {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  justify-content: center;
+}
+
+.loader-and-card-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+}
+
+.course-card-container {
+  list-style-type: none;
+  padding-left: 0;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.failure-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.failure-image {
+  width: 350px;
+  height: 300px;
+}
+
+.failure-main-heading {
+  font-family: 'Roboto';
+  font-size: 30px;
+  font-weight: 500;
+  color: #475569;
+  margin-bottom: 14px;
+}
+
+.failure-description {
+  font-family: 'Roboto';
+  font-size: 14px;
+  font-weight: 400;
+  color: #64748b;
+  margin-top: 0;
+}
+
+.retry-button {
+  border: none;
+  outline: none;
+  background-color: #4656a1;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 10px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  height: 30px;
+  border-radius: 3px;
+  width: 70px;
+}
